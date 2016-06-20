@@ -1,0 +1,55 @@
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #6ab47b;
+}
+
+header {
+	background-color: #6ab47b;
+	border: 3px solid white;
+	border-radius: 10px;
+}
+
+nav {
+	background-color:  #29a329;
+	padding: 40px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	float: left;
+}
+
+nav li {
+	padding-left: 20px;
+	float: left;
+}
+
+nav a:visited {
+	color: yellow;
+}
+
+nav a:hover {
+	color: white;
+	font-weight: bold;
+}
+
+h1, h2 {
+	color: white;
+}
+
+footer {
+	color: white;
+	font-weight: bold;
+}
