@@ -1,3 +1,9 @@
+/****************************************************
+@file        : main.css								*
+@author      : Mir Ahmed							*
+@description : a css file for the index.html filter *
+@date created: 6/22/2016							*
+*****************************************************/ 
 #wrapper {
 	max-width: 940px;
 	margin: 0 auto;
@@ -9,20 +15,25 @@
 	margin: 0;
 }
 
-a {
-	text-decoration: none;
-	color: #6ab47b;
+/* logo text */
+h1, h2 {
+	color: white;
 }
-
 header {
 	background-color: #6ab47b;
 	border: 3px solid white;
 	border-radius: 10px;
 }
 
+a {
+	text-decoration: none;
+	color: #6ab47b;
+}
+
 nav {
 	background-color:  #29a329;
-	padding: 40px;
+	padding: 20px;
+	border-radius: 0 0 10px 10px;
 }
 
 nav a {
@@ -40,16 +51,22 @@ nav a:visited {
 	color: yellow;
 }
 
-nav a:hover {
-	color: white;
+nav a.selected, nav a:hover {
+	color: yellow;
 	font-weight: bold;
 }
 
-h1, h2 {
-	color: white;
+
+
+/* Site body */ 
+body {
+	background-color: #fff;
+	color: #999;
 }
 
 footer {
 	color: white;
 	font-weight: bold;
 }
+
+
