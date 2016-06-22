@@ -17,7 +17,9 @@
 
 /* logo text */
 h1, h2 {
+	font-family: 'Open Sans', sans-serif;
 	color: white;
+	font-size: 1.75em;
 }
 header {
 	background-color: #6ab47b;
