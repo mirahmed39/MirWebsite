@@ -15,12 +15,28 @@
 	margin: 0;
 }
 
+/* logo text */
+h3, h4 {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 1.3em;
+}
+header {
+	margin: 0;
+	background-color: #5882FA;
+	border: 3px solid white;
+	border-radius: 10px;
+	text-align: center;
+	height: 20%;
+}
+
 img {
 	max-width: 100%;
 }
 
 li p {
 	text-align: center;
+	font-size: 0.75em;
 }
 /** page portfolio*/
 #gallery {
@@ -37,28 +53,17 @@ li p {
 
 }
 
-/* logo text */
-h1, h2 {
-	font-family: 'Open Sans', sans-serif;
-	color: white;
-	font-size: 1.75em;
-}
-header {
-	background-color: #6ab47b;
-	border: 3px solid white;
-	border-radius: 10px;
-	text-align: center;
-}
-
 a {
 	text-decoration: none;
 	color: #6ab47b;
 }
 
 nav {
-	background-color:  #29a329;
-	padding: 40px;
+	background-color:  #3b5998;
 	border-radius: 0 0 10px 10px;
+	height: 10px;
+	padding-bottom: 20px; 
+	margin-top: 0;
 }
 
 nav a {
@@ -101,10 +106,28 @@ footer {
 	text-align: center;
 	border-radius: 10px;
 	font-weight: bold;
-	clear: left;
+	clear: both;
 }
 
+.social_icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
 
+/* about page */
+.profile_picture{
+	max-height: 400px;
+	display: block;
+	max-width: 400px;
+	margin: 10px auto 30px;
+	border-radius: 100%;
+
+}
+
+.contact_info {
+	text-align: left;
+}
 
 
 
